@@ -1,0 +1,434 @@
+.body{
+    background-color: #F0EBE3;
+}
+.main{
+    padding-top: 110px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    margin: 20px;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex--center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input input:not(input[type="file"]),
+.input select{
+    height: 30px;
+    margin-left: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+
+/* header */
+.header{
+    background-color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.header_title{
+    height: 90%;
+}
+.header_title img{
+    height: 100%;
+    aspect-ratio: 1 / 1;
+}
+.header_tel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #60310F;
+    margin-right: 10px;
+}
+.header_tel>div:first-of-type{
+    display: flex;
+}
+.header_tel>div:first-of-type>ul{
+    display: flex;
+    padding: 5px;
+}
+.header_tel>div:last-of-type>p{
+    padding: 2px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.logout button{
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    border-radius: 5px;
+    background-color: rgb(193, 241, 255);
+}
+
+/* Campaign */
+.campaign li{
+    list-style: none;
+}
+
+/* footer */
+.footer{
+    background-color: #cbcbcb;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.footer_flex{
+    display: flex;
+}
+.footer_title{
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+}
+.map{
+    width: 70%;
+    margin: auto;
+}
+.map>div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px
+}
+.map>div h3{
+    margin-right: 10px;
+}
+.map iframe{
+    width: 100%;
+}
+.footer_contact{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.video{
+    width: 50%;
+}
+.video>div{
+    display: flex;
+    justify-content: center;
+}
+.video video{
+    width: 90%;
+}
+
+.company_profile{
+    width: 50%;
+}
+.company_profile>ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.company_profile li{
+    margin: 15px;
+}
+.company_profile li>p{
+    margin-top: 5px;
+}
+.company_profile p{
+    font-size: 13px;
+}
+
+/* ALL */
+.update_button,
+.add_button{
+    text-align: center;
+    margin-top: 10px;
+}
+.update_button>button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #f3e790;
+    border-radius: 5px;
+    background-color: #FFFAD7;
+}
+.add_button>button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #90f39f;
+    border-radius: 5px;
+    background-color: #deffd7;
+}
+.inputs_icon{
+    width: 20px;
+}
+.inputs_icon>img{
+    width: 100%;
+}
+
+/* Admin */
+.form_title{
+    text-align: center;
+    margin: 50px;
+}
+
+/* input file */
+.input_file{
+    margin-top: 30px;
+    text-align: center;
+}
+.input_file_label{
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #384878;
+    cursor: pointer;
+    line-height: 45px;
+}
+.input_file_label>input{
+    display: none;
+}
+.input_file>p{
+    margin-top: 20px;
+}
+/* ------------------ */
+
+/* タイトル */
+.category_title{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F3F3F3;
+    border-left: 3px solid #ACACAC;
+}
+/* ------------- */
+
+/* 管理者ページ */
+.admin_top_title{
+    text-align: center;
+    margin: 50px;
+}
+.admin_top_title>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+/* -------------- */
+
+/* top_title */
+.top_title{
+    text-align: center;
+    padding: 50px;
+}
+.back_button{
+    text-align: center;
+}
+.back_button button{
+    padding: 5px 30px;
+    border: none;
+}
+/* ---------------- */
+
+/* add_card */
+.add_card
+{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+}
+.add_card>h2{
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    background-color: #cbcbcb;
+    color: #fff;
+}
+.add_card>h2>span{
+    border: 1px solid #c0906b;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 0 5px;
+    background-color: #FFC090;
+}
+.add_card>form{
+    padding-bottom: 10px;
+}
+.add_card>form>div:not(:last-child){
+    text-align: center;
+    margin: 20px;
+}
+.add_card>form>div:last-child{
+    text-align: center;
+}
+.add_card>form>div:last-child button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #90f39f;
+    border-radius: 5px;
+    background-color: #deffd7;
+}
+.add_card input,
+.add_card select{
+    height: 30px;
+    margin-left: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+.add_card textarea{
+    height: 100px;
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+.textarea>h3{
+    color: #bbbbbb;
+}
+/* ---------------- */
+
+/* update_card */
+    .update_card{
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        width: 700px;
+        margin: auto;
+    }
+    .update_card>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px 5px 0 0;
+    }
+    .update_card>div>h2{
+        padding: 20px;
+        text-align: left;
+    }
+    .update_card>div>a{
+        width: 20px;
+        margin-right: 20px;
+    }
+    .update_card>div>a>img{
+        width: 100%;
+    }
+    .update_card>p{
+        display: inline-block;
+        background-color: #FAEEAB;
+        border-radius: 15px;
+        padding: 5px 10px;
+        margin: 10px 10px 0;
+    }
+    .update_card>form>div:last-child{
+        text-align: center;
+    }
+    .update_card>form>div:last-child button{
+        padding: 5px 30px;
+        border: none;
+        box-shadow: 1px 1px 5px #90f39f;
+        border-radius: 5px;
+        background-color: #deffd7;
+        margin-bottom: 10px;
+    }
+/* --------------------- */
+    .part_title{
+        display: inline-block;
+        background-color: #FAEEAB;
+        border-radius: 15px;
+        padding: 5px 10px;
+        margin: 10px 10px 0;
+    }
+
+    @media screen and (max-width:769px){
+        .main{
+            padding-top: 90px;
+        }
+        .header{
+            height: 80px;
+        }
+        /* footer */
+        .map{
+            width: 90%;
+        }
+        .map>div{
+            flex-direction: column;
+            align-items: center;
+        }
+        .map>div>p{
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        .footer_flex{
+            flex-direction: column;
+        }
+        .video{
+            width: 100%;
+        }
+        .map iframe{
+            height: 50vh;
+        }
+        .company_profile{
+            width: 100%;
+        }
+        /* -------------------------- */
+    }
+    
+    @media screen and (max-width:426px) {
+        .main{
+            padding-top: 60px;
+        }
+        .header{
+            height: 50px;
+        }
+        .header_tel>div:first-of-type{
+            font-size: 10px;
+        }
+        .header_tel>div:last-of-type>p{
+            font-size: 10px;
+        }
+        /* footer */
+        .map{
+            width: 90%;
+        }
+        .map>div{
+            flex-direction: column;
+            align-items: center;
+        }
+        .map>div>p{
+            font-size: 13px;
+            margin-top: 10px;
+        }
+        .footer_flex{
+            flex-direction: column;
+        }
+        .video{
+            width: 100%;
+        }
+        .map iframe{
+            height: 50vh;
+        }
+        .company_profile{
+            width: 100%;
+        }
+        /* -------------------------- */
+    }
